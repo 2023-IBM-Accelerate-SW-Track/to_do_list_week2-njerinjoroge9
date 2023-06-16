@@ -3,3 +3,31 @@
   margin: auto;
   padding-bottom: 20px;
 }
+
+/* Style for the primary text (todo content) */
+.todo-content {
+  /* Add your desired styles here */
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  text-align: center; /* Align the content to the center */
+  position: center;
+
+}
+
+/* Style for the secondary text (todo date) */
+.todo-date {
+  /* Add your desired styles here */
+  font-style: italic;
+  color: gray;
+  font-size: 10px;
+  position: absolute;
+  bottom: 10px; /* Adjust the positioning of the date at the bottom */
+  width: 100%; /* Ensure the date spans the full width of the card */
+}
+
+/* Style for the checkbox */
+.todo-checkbox {
+  /* Add your desired styles here */
+  margin-right: 10px;
+}
